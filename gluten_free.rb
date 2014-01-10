@@ -30,9 +30,7 @@ class Person
 	def eat(food)
 		@stomach += food
 		@stomach.each do |item|
-			if item == @allergy
-					raise AllergyError.new("Oh, no! I'm allergic to #{item}!!")
-			end
+			raise AllergyError.new("Oh, no! I'm allergic to #{item}!!") if item == @allergy
 		end
 		rescue 
 			puts "Spit the food out."
