@@ -43,6 +43,12 @@ class Person
 			end
 	end
 
+	def to_s
+		puts "name: #{@name}"
+		puts "allergy: #{@allergy}"
+		puts @stomach.empty? ? "hungry: yes" : "hungry: no"
+	end
+
 end
  
 # Create a Person named Chris. Chris is allergic to gluten.
