@@ -82,3 +82,11 @@ beth.eat pan_seared_scallops
 
 puts "Beth is giong to drink water ... "
 beth.eat water
+
+beer = ["water", "alcohol", "sugar"]
+mark = Person.new("Mark", "alcohol")
+puts "Mark is going to eat pizza ... "
+mark.eat pizza
+puts "Mark is going to drink beer ... "
+mark.eat beer
+
