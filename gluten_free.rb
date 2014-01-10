@@ -33,6 +33,12 @@ class Person
 		rescue 
 			puts "Spit the food out."
 			@stomach = []
+		ensure
+			if @stomach.empty?
+				puts "Your stomach is empty so you are very hungry"
+			else
+				puts "Yummy food!"
+			end
 	end
 
 end
@@ -58,3 +64,7 @@ end
  
 # Bonus: When a person attempts to eat a food they are allergic to,
 #        ... remove ALL the food from the person's stomach before raising the exception
+
+
+
+chris.eat 
