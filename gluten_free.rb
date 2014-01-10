@@ -67,11 +67,20 @@ water = ["h", "h", "o"]
 #        ... remove ALL the food from the person's stomach before raising the exception
 
 
-
+puts "Chris is going to eat pizza ... "
 chris.eat pizza
+
+puts "Chris is going to eat scallops ... "
 chris.eat pan_seared_scallops
+
+puts "Chris is going to drink water ... "
 chris.eat water
 
+puts "Beth is going to eat pizza ... "
 beth.eat pizza
+
+puts "Beth is going to eat scallops ... "
 beth.eat pan_seared_scallops
+
+puts "Beth is giong to drink water ... "
 beth.eat water
