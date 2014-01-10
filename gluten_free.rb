@@ -67,4 +67,10 @@ end
 
 
 
-chris.eat 
+chris.eat pizza
+chris.eat pan_seared_scallops
+chris.eat water
+
+beth.eat pizza
+beth.eat pan_seared_scallops
+beth.eat water
