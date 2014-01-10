@@ -14,6 +14,10 @@
 # Create a Person class. A person will have a stomach and allergies
 # Create a method that allows the person to eat and add arrays of food to their stomachs
 # If a food array contains a known allergy reject the food.
+
+
+class AllergyError < StandardError
+end
  
 class Person
 	attr_reader :name
@@ -58,10 +62,7 @@ water = ["h", "h", "o"]
 # When a person attempts to eat a food they are allergic to, raise a custom exception
 # For example:  AllergyError
 
-class AllergyError < StandardError
-end
 
- 
 # Bonus: When a person attempts to eat a food they are allergic to,
 #        ... remove ALL the food from the person's stomach before raising the exception
 
